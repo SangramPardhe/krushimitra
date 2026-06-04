@@ -1,4 +1,4 @@
-# 🌾 KrushiMitra - Smart Crop Recommendation System
+# 🌾 KrishiMitra - Smart Crop Recommendation System
 
 ## 📌 Overview
 
