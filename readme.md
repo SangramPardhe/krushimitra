@@ -62,11 +62,22 @@ KrushiMitra/
 ```
 
 
-### Open in Browser
+⚙️ Installation and Setup
+Clone the Repository
+git clone https://github.com/SangramPardhe/KrushiMitra.git
+Navigate to Project Folder
+cd KrushiMitra
+Install Required Libraries
+pip install -r requirements.txt
+Run the Application
+python app.py
+Open in Browser
 
-```text
+After running the application, open:
+
 http://127.0.0.1:5000
-```
+
+Note: This URL works only on your local machine while the Flask application is running.
 
 
 
