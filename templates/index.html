@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>KrishiMitra</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>KrishiMitra 🌱</h1>
+    <form method="POST">
+
+        <input type="number" step="any" name="N" placeholder="Nitrogen" required>
+
+        <input type="number" step="any" name="P" placeholder="Phosphorus" required>
+
+        <input type="number" step="any" name="K" placeholder="Potassium" required>
+
+        <input type="number" step="any" name="temperature" placeholder="Temperature" required>
+
+        <input type="number" step="any" name="humidity" placeholder="Humidity" required>
+
+        <input type="number" step="any" name="ph" placeholder="pH Value" required>
+
+        <input type="number" step="any" name="rainfall" placeholder="Rainfall" required>
+
+        <button type="submit">Predict Crop</button>
+
+    </form>
+
+    <h2>{{ prediction }}</h2>
+
+</div>
+
+</body>
+</html>
